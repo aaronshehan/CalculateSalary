@@ -1,4 +1,4 @@
-/* Aaron Shehan  CSCE 1030.001  02/23/18
+/* Aaron Shehan
 Project 2: This program will use user input for salary, experience, and employee role to 
 caclulate the total salary of each employee processed and the total company payout. */
 #include <iostream>
@@ -10,12 +10,6 @@ using namespace std;
 
 int main () 
 {
-
-cout << "+----------------------------------------------+\n";
-cout << "|       Computer Science and Engineering       |\n";
-cout << "|        CSCE 1030 - Computer Science I        |\n";
-cout << "| Aaron Shehan ats0109 aaronshehan@my.unt.edu  |\n";
-cout << "+----------------------------------------------+\n"; 
 
 char endProgram; 		       // used to continue or end do while loop
 int totalExecutives = 0; 	      // used to count number of executives processed
